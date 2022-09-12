@@ -1,0 +1,26 @@
+{
+    "startup": {
+        "PERMISSION_REQUIRED": ["Necesitas permisos de administrador"],
+        "MISSING_ROLE_IDS": ["Please fill all the details in settings.json, watch this video if you are confused: https://some.video"],
+        "SETUP_MESSAGE_1": ["Setting up the modmail bot in the server."],
+        "SETUP_MESSAGE_2": ["Setup completed, create a new category with name 'Mod Mail'"],
+        "CONNECTED": ["{{name}} is Connected to discord, watching {{memberCount}} Members"]
+    },
+    "system": {
+        "MEMBER_NOT_FOUND": "Unable to find the member ({{member}}) in the server.",
+        "PARENT_MISSING": "Unable to get parent ID so backing up.",
+        "CHANNEL_TOPIC": "Este Correo fue creado por: **{{member}}**",
+        "SUCCESS_EMBED": {
+            "AUTHOR": ["Correo abierto!"],
+            "DESCRIPTION": ["Nueva conversacion iniciada porfavor espere a un administrador."]
+        },
+        "DETAILS_EMBED": {
+            "AUTHOR": ["Detalles"],
+            "DESCRIPTION": ["{{content}}"]
+        },
+        "DELETE_EMBED": {
+            "AUTHOR": ["Correo cerrado"],
+            "DESCRIPTION": ["Este email fue cerrado por un administrador del servidor, si cree que fue un error habra denuevo ticket."]
+        }
+    }
+}
